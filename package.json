@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backened API for CRM",
+  "keywords": [
+    "CRM"
+  ],
+  "license": "ISC",
+  "author": "Ritesh Kumar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "test": "npm run test"
+  },
+  "dependencies": {
+    "@types/node": "^25.0.3",
+    "express": "^5.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
